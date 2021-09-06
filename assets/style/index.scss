@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+ul,
+li,
+span,
+i,
+ol,
+dl,
+dt,
+dd,
+table,
+thead,
+tbody,
+th,
+td,
+input,
+button {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html,
+body {
+  &::-webkit-scrollbar {
+    width: 0px !important;
+  }
+}
