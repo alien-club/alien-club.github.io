@@ -3,9 +3,9 @@
     <div class="center-top-page-logo">
       <a href="#"></a>
     </div>
-    <h3 class="center-top-page-title">
+    <div class="center-top-page-title">
       <img src="../../assets/images/center/center-top-title.png" alt="" />
-    </h3>
+    </div>
     <div class="center-top-page-title-info">
       Holding ALIEN tokens and building your own army to earn the EYE tokens
       which can be used to buy energy from the Alien game. The EYE is a special
@@ -16,6 +16,10 @@
     <h3 class="center-top-page-title-nft">
       <img src="../../assets/images/center/center-top-title-nft.png" alt="" />
     </h3>
+    <div class="center-top-page-nft-wrap">
+      <h3>Included with each combination are 4 types of gear items:</h3>
+      <div class="center-top-page-card-wrap"></div>
+    </div>
   </div>
 </template>
 
@@ -61,7 +65,7 @@ export default {};
   width: 1180px;
   height: 99px;
   font-size: 24px;
-  font-family: STSongti-SC-Regular, STSongti-SC;
+  font-family: HoeflerText-Regular;
   font-weight: 400;
   color: #a0afbe;
   line-height: 33px;
@@ -73,6 +77,20 @@ export default {};
   img {
     width: 100%;
     height: 100%;
+  }
+}
+.center-top-page-nft-wrap {
+  width: 1180px;
+  margin: 0 auto;
+  > h3 {
+    height: 33px;
+    font-size: 24px;
+    font-family: HoeflerText-Regular;
+    font-weight: 400;
+    color: #a0afbe;
+    line-height: 33px;
+  }
+  .center-top-page-card-wrap {
   }
 }
 </style>
