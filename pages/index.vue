@@ -15,6 +15,7 @@
     </div>
     <div class="center-page">
       <CenterTop />
+      <CenterBot />
     </div>
   </div>
 </template>
@@ -22,10 +23,12 @@
 <script>
 import Header from "../components/header/index.vue";
 import CenterTop from "../components/special-buff/index.vue";
+import CenterBot from "../components/tokenmics/index.vue";
 export default {
   components: {
     Header,
     CenterTop,
+    CenterBot,
   },
 };
 </script>
@@ -37,6 +40,7 @@ export default {
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center center;
+  background-color: #51392f;
 }
 .header-page_center {
   display: flex;
@@ -52,11 +56,12 @@ export default {
     width: 1080px;
     height: 108px;
     font-size: 24px;
-    font-family: HoeflerText;
+    font-family: HoeflerText-Regular;
     font-weight: 400;
     color: #ecb28d;
     line-height: 36px;
     margin-top: 16px;
+    text-align: center;
   }
   > a {
     margin-top: 28px;
